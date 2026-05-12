@@ -1,0 +1,34 @@
+# Build artifacts
+build/
+*.bin
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Vivado/HLS generated
+*.jou
+*.log
+*.str
+*.dcp
+.Xil/
+vivado_*.backup.jou
+vivado_*.backup.log
+iv_kernel_proj/
+iv_zedboard/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Large data files — CBOE redistribution rules
+*.csv
+*.bit
+*.xsa
